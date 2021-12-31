@@ -8,7 +8,7 @@ namespace HotelListingWebApi.IRepository
 {
     public interface IUnitOfWork : IDisposable
     {
-        IGenericRepository<Country> Contries { get; }
+        IGenericRepository<Country> Countries { get; }
         IGenericRepository<Hotel> Hotels { get; }
         Task Save();
     }
